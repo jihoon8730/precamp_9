@@ -1,0 +1,11 @@
+input {
+    background-color: yellow;
+}
+.qqq {
+    background-color: skyblue;      
+}
+#zzz {
+    background-color: orange;
+}
+
+/* *는 모든태그 선택자 */

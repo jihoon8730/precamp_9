@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>인증번호</title>
+    <script>
+        const button = () => {
+            const token = String(Math.floor(Math.raddom() * 1000000)).padStart(6, "0")
+            document.getElementById("btn").innerText = token
+        }
+    </script>
+</head>
+<body>
+    <span id="btn">000000</span>
+    <button onclick="button()">인증번호 전송</button>
+    
+</body>
+</html>
